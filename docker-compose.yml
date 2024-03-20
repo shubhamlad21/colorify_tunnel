@@ -1,0 +1,14 @@
+---
+version: '3'
+services:
+  st-photo-colorization:
+    build: .
+    container_name: st-photo-colorization
+    restart: unless-stopped
+    ports:
+    - 51004:8501
+    volumes:
+    - .:/app
+    environment:
+    - TZ=Asia/Jakarta
+    # command: streamlit run sdc.py
