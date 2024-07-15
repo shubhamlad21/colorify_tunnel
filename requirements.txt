@@ -4,7 +4,7 @@ numpy
 opencv-python-headless
 matplotlib
 streamlit
-scipy==1.7.1
+scipy==1.7.3
 scikit_image==0.18.3
 requests
 fastai==1.0.51
